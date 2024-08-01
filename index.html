@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- Top Section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="display-3 text-primary my4">Geography Quiz</h2>
+        </div>
+    </div>
+    <!--Result Section-->
+    <div class="result py-4 bg-light text-center d-none">
+        <div class="container lead">
+            <p>You are <span class="text-primary display-4 p-3">0%</span> an explorer</p>
+        </div>
+    </div>
+    <!--Quiz Section-->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-light">On with the questions...</h2>
+            <form class="quiz-form text-light">
+                <!-- first question -->
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. What is the capital of France?</p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q1a1" type="radio" name="q1" value="A">
+                        <label for="q1a1" class="form-check-lable">Madrid</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q1a2" type="radio" name="q1" value="B">
+                        <label for="q1a2" class="form-check-lable">Paris</label>
+                    </div>
+
+                </div>
+                <!-- second question -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. What is the largest continent by land area?</p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q2a1" type="radio" name="q2" value="A">
+                        <label for="q2a1" class="form-check-lable">1 Asia</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q2a2" type="radio" name="q2" value="B">
+                        <label for="q2a2" class="form-check-lable">2 Africa</label>
+                    </div>
+
+                </div>
+                <!-- third question -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. How many oceans are there?</p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q3a1" type="radio" name="q3" value="A">
+                        <label for="q3a1" class="form-check-lable">3 oceans</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q3a2" type="radio" name="q3" value="B">
+                        <label for="q3a2" class="form-check-lable">5 oceans</label>
+                    </div>
+
+                </div>
+                <!-- forth question -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Which is the largest country in the world?</p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q4a1" type="radio" name="q4" value="A">
+                        <label for="q4a1" class="form-check-lable">United States</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q4a2" type="radio" name="q4" value="B">
+                        <label for="q4a2" class="form-check-lable">Russia</label>
+                    </div>
+
+                </div>
+                <!-- fifth question -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. Which is the largest country in the world by population?</p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q5a1" type="radio" name="q5" value="A">
+                        <label for="q5a1" class="form-check-lable">China</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input id="q5a2" type="radio" name="q5" value="B">
+                        <label for="q5a2" class="form-check-lable">India</label>
+                    </div>
+
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" id="disabled" class="btn btn-light" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/quiz.js"></script>
+</body>
+
+</html>
